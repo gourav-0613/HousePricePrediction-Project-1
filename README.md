@@ -94,11 +94,11 @@
 
 ## 📷 Visualization Gallery
 
-## 📷 Results
+## 📊 Results
 
 ### House Price Distribution
 
-![Histogram](charts/chart1_Histogram.png)
+![Histogram](charts/char1_Histogram.png)
 
 ### Correlation Heatmap
 
@@ -106,7 +106,7 @@
 
 ### Actual vs Predicted Prices
 
-![Regression](charts/chart3_Linear_regression.png)
+![Regression](charts/char3_Linear_regression.png)
 
 ## 💡 What I Learned
 
