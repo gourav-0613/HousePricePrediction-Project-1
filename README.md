@@ -102,11 +102,11 @@
 
 ### Correlation Heatmap
 
-![Heatmap](charts/chart2_Correlation_heatmap.png)
+![Heatmap](charts/chart2_Correlation heatmap.png)
 
 ### Actual vs Predicted Prices
 
-![Regression](charts/char3_Linear_regression.png)
+![Regression](charts/char3_Linear regression.png)
 
 ## 💡 What I Learned
 
