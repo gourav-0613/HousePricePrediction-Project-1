@@ -43,7 +43,7 @@
 |-----------|------------|
 | Language | Python |
 | Analysis | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
+| Visualization | Matplotlib, Seaborn, Plotly |
 | ML Library | Scikit-Learn |
 | Environment | Jupyter Notebook |
 ---
@@ -133,15 +133,16 @@
 ---
 
 ## 📚 Future Improvements
-
-* 🔹 Random Forest Regressor
-* 🔹 XGBoost Regressor
-* 🔹 Hyperparameter Tuning
-* 🔹 Feature Selection Techniques
-* 🔹 Model Deployment using Streamlit
+* 🔹 Model Deployment using Flask / FastAPI (SE focused)
+* 🔹 Hyperparameter Tuning to reduce Random Forest Overfitting
+* 🔹 Expanding dataset size to train more complex neural networks
 
 ---
-
+## 🧠 Key Engineering & Business Insights
+* **The Overfitting Trap:** A complex Random Forest regressor was initially deployed, achieving 94% training accuracy. However, it severely overfit the small dataset, crashing to 61% on testing. 
+* **Simplicity Wins:** A lightweight Linear Regression model generalized much better to unseen data (65% testing accuracy), proving that throwing heavy compute at small datasets is bad engineering practice.
+* **Feature Value:** Property 'area' and 'bathrooms' carry the highest mathematical weight in determining real estate valuations.
+---
 ## 🌟 Repository Support
 
 If you found this project useful:
